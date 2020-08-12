@@ -1,0 +1,9 @@
+{
+  "touser" : "{{to}}",
+  "msgtype" : "text",
+  "agentid" : 1000002,
+  "text" : {
+    "content" : "{{msg}}"
+  },
+  "safe":0
+}
