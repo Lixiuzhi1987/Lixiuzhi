@@ -1,0 +1,17 @@
+name: tags
+methods:
+  get_corp_tag_list:
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_corp_tag_list
+    query:
+      access_token: token
+    json:
+      tag_id: []
+
+  add_corp_tag:
+    post: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/add_corp_tag
+    query:
+      access_token: token
+
+
+
