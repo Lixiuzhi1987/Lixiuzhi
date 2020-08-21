@@ -1,1 +1,5 @@
+com\config\Message.class
+test\framework\ApiObjectModel.class
+test\framework\ApiObjectMethodModel.class
+com\config\Config.class
 org\example\App.class

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Junit5.TestYaml
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in Junit5.TestYaml
+testddt{String}  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+
+testDDTFromJson{User}  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+
+testDDTFromYaml{User}  Time elapsed: 0.049 s  <<< ERROR!
+java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+

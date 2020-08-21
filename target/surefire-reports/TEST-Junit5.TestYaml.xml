@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Junit5.TestYaml" time="0.052" tests="3" errors="3" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,5 +60,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="org.example.AppTest" time="0"/>
+  <testcase name="testddt{String}" classname="Junit5.TestYaml" time="0.015">
+    <error message="Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract" type="java.lang.AbstractMethodError">java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+</error>
+  </testcase>
+  <testcase name="testDDTFromJson{User}" classname="Junit5.TestYaml" time="0.03">
+    <error message="Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract" type="java.lang.AbstractMethodError">java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+</error>
+  </testcase>
+  <testcase name="testDDTFromYaml{User}" classname="Junit5.TestYaml" time="0.049">
+    <error message="Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract" type="java.lang.AbstractMethodError">java.lang.AbstractMethodError: Method org/junit/jupiter/engine/descriptor/TestTemplateExtensionContext.getConfigurationParameter(Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; is abstract
+</error>
+  </testcase>
 </testsuite>
